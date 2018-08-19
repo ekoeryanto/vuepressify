@@ -4,8 +4,6 @@ sidebar: auto
 
 # Default Theme Config
 
-<Bit/>
-
 ::: tip All options listed on this page apply to the default theme only. If you are using a custom theme, the options may be different. :::
 
 ## Homepage
