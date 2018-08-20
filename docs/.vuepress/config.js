@@ -1,5 +1,6 @@
 module.exports = {
   // dest: 'vuepress',
+  evergreen: true,
   locales: {
     '/': {
       lang: 'en-US',
@@ -43,8 +44,16 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
   serviceWorker: true,
+  markdown: {
+    anchor: {
+      permalink: false,
+      permalinkBefore: false,
+      permalinkSymbol: '<v-icon small>link</v-icon>',
+    },
+  },
   // theme: 'vue',
   themeConfig: {
+    logo: '/logo.png',
     repo: 'vuejs/vuepress',
     editLinks: true,
     docsDir: 'docs',

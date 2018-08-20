@@ -41,6 +41,6 @@
     "yorkie": "^2.0.0"
   },
   "dependencies": {
-    "vuetify": "^1.2.0-beta.2"
+    "vuetify": "^1.1.13"
   }
 }
